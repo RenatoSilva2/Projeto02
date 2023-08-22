@@ -1,0 +1,133 @@
+@charset "UTF-8";
+:root{
+    --cor1--: #2B5080;
+    --cor2--: #dcebff;
+    --cor3--: #57A0FF;
+    --cor4--: #467FCC;
+
+    --font-padrao--: 'Roboto', 'sans-serif'
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400&family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--cor2--);
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #57A0FF, #467FCC);
+    width: 55%;
+    margin: auto;
+    padding-bottom: 20px;
+    border-radius: 6px;
+}
+
+
+header h1{
+    text-align: center;
+    font-family: var(--font-padrao--);
+    font-weight: 900;
+    font-size: 3em;
+    color: white;
+    padding-top: 20px;
+}
+
+header p{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 45px;
+    padding: 10px;
+}
+
+header nav{
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 14px;
+    padding-bottom: 10px;
+    padding: 5px;
+    background-color: #3568a9;
+    color: white;
+    border-radius: 4px;
+}
+
+nav a:hover{
+    color: #57A0FF;
+    background-color: #1c3555;
+    border-radius: 4px;
+    transition-duration: .4s;
+}
+
+
+main{
+    max-width: 1050px;
+    min-width: 300px;
+    margin: auto;
+    background-color: #1b355714;
+}
+
+main p{
+    text-align: justify;
+    text-indent: 25px;
+    padding: 13px;
+    margin-bottom: 1px ;
+}
+
+main strong{
+    color: #57A0FF;
+}
+
+main strong em{
+    text-decoration: none;
+    color: #467FCC;
+    
+}
+
+main abbr{
+    text-decoration: none;
+}
+.img{
+    display: block;
+    max-width: 350px;
+    margin-left: 26%;
+    align-items: center;
+    margin-top: -30px;
+    margin-bottom: -30px;
+}
+
+.titulos{
+    background-image: linear-gradient(to right, #57A0FF , transparent);
+    text-indent: 10px;
+    color: white;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 6px;
+    padding-left: 10px;
+}
+
+footer p{
+    text-align: center;
+    margin-top: 40px;
+    background-color: #1c3555;
+    width: 54%;
+    margin: auto;
+    padding: 10px;
+    color: white;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+
+
+
